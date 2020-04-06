@@ -1,0 +1,20 @@
+{
+    "name": "geekdevs/guzzle-log-middleware-formatters",
+    "type": "library",
+    "description": "Curl formatter for guzzle log middleware `rtheunissen/guzzle-log-middleware`",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Dubinin",
+            "email": "geekdevs@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Geekdevs\\": "src/"
+        }
+    },
+    "require": {
+        "php-http/message": "^1.8"
+    }
+}
